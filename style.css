@@ -383,6 +383,15 @@ footer[id] {
   background: var(--paper);
 }
 
+.perspective {
+  background: var(--mist);
+}
+
+.perspective .section-intro {
+  margin-inline: auto;
+  text-align: center;
+}
+
 .video-sales__inner {
   max-width: 960px;
   text-align: center;
@@ -1567,3 +1576,4 @@ footer[id] {
     transition: none;
   }
 }
+
