@@ -386,9 +386,9 @@
           </button>
         </div>
         <noscript>
-          <p class="video-sales__fallback"><a href="https://www.youtube.com/watch?v=MlR1fPLTnyA" target="_blank" rel="noopener noreferrer">Assista à apresentação no YouTube</a></p>
+          <p class="video-sales__fallback">Ative o JavaScript para reproduzir a apresentação nesta página.</p>
         </noscript>
-        <a class="btn btn--primary" href="https://pay.hotmart.com/S55585420V?checkoutMode=10" target="_blank" rel="noopener noreferrer" data-cta="video">Quero me inscrever</a>
+        <a class="btn btn--primary" href="#investimento" data-cta="video">Quero me inscrever</a>
       </div>
     </section>
 
@@ -442,6 +442,7 @@
                  alt="Cena da festividade do quebra-panela na feira livre, em preto e branco, exemplo de como o contraste guia a construção do olhar."
                  width="1200" height="800" loading="lazy" decoding="async">
           </picture>
+          <figcaption>Quebra-panela — Série Vidas Cinzas — Paraíba, PB — 2013</figcaption>
         </figure>
       </div>
     </section>
@@ -501,7 +502,7 @@
       <div class="container video-sales__inner" data-reveal>
         <p class="eyebrow"><span class="eyebrow__line" aria-hidden="true"></span>Exemplo prático</p>
         <h2 id="perspective-title">Mude o ponto de vista. Transforme a imagem.</h2>
-        <p class="section-intro">Neste exemplo, Alex mostra como uma mudança de olhar e de perspectiva fotográfica pode transformar a leitura de uma cena.</p>
+        <p class="section-intro">Neste exemplo, você verá como uma mudança de olhar e de perspectiva fotográfica pode transformar a leitura de uma cena.</p>
 
         <div class="video-sales__embed" data-video-facade data-video-id="tjS0YTcatK4">
           <button type="button" class="video-sales__play" aria-label="Reproduzir exemplo de mudança de olhar e perspectiva fotográfica">
@@ -522,7 +523,7 @@
           </button>
         </div>
         <noscript>
-          <p class="video-sales__fallback"><a href="https://www.youtube.com/watch?v=tjS0YTcatK4" target="_blank" rel="noopener noreferrer">Assista ao exemplo no YouTube</a></p>
+          <p class="video-sales__fallback">Ative o JavaScript para reproduzir o exemplo nesta página.</p>
         </noscript>
       </div>
     </section>
@@ -782,7 +783,7 @@
             </figcaption>
             <noscript>
               <p class="video-sales__fallback">
-                <a href="https://www.youtube.com/watch?v=3FqffXb6418" target="_blank" rel="noopener noreferrer">Assista ao depoimento no YouTube</a>
+                Ative o JavaScript para reproduzir este depoimento nesta página.
               </p>
             </noscript>
           </figure>
@@ -812,7 +813,7 @@
             </figcaption>
             <noscript>
               <p class="video-sales__fallback">
-                <a href="https://www.youtube.com/watch?v=XKykk4eIgr8" target="_blank" rel="noopener noreferrer">Assista ao depoimento no YouTube</a>
+                Ative o JavaScript para reproduzir este depoimento nesta página.
               </p>
             </noscript>
           </figure>
@@ -946,11 +947,11 @@
       <div class="container included__grid">
         <div class="included__content" data-reveal>
           <p class="eyebrow"><span class="eyebrow__line" aria-hidden="true"></span>O que está incluso</p>
-          <h2 id="incluso-title">Tudo o que você precisa para começar.</h2>
+          <h2 id="incluso-title">O que você recebe ao se inscrever</h2>
 
           <ul class="included__list">
             <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m5 12 4 4L19 6"/></svg>10 módulos em vídeo</li>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m5 12 4 4L19 6"/></svg>1 hora de conteúdo</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m5 12 4 4L19 6"/></svg>Aulas práticas e aplicáveis</li>
             <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m5 12 4 4L19 6"/></svg>Certificado digital</li>
             <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m5 12 4 4L19 6"/></svg>Garantia incondicional de 7 dias</li>
             <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m5 12 4 4L19 6"/></svg>Acesso vitalício</li>
@@ -1154,6 +1155,7 @@
               || 'Fotografia Além da Imagem — apresentação do curso';
             iframe.loading = 'lazy';
             iframe.referrerPolicy = 'strict-origin-when-cross-origin';
+            iframe.setAttribute('sandbox', 'allow-scripts allow-same-origin allow-presentation');
             iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
             iframe.allowFullscreen = true;
       

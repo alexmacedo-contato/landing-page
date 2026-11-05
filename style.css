@@ -594,16 +594,6 @@ footer[id] {
   isolation: isolate;
 }
 
-.daltonismo__media::after {
-  content: "";
-  position: absolute;
-  inset: auto 0 0;
-  z-index: 1;
-  height: 42%;
-  background: linear-gradient(to top, rgba(10, 10, 10, 0.78), rgba(10, 10, 10, 0));
-  pointer-events: none;
-}
-
 /* ⚠️ ALTERAÇÃO 4: aspect-ratio 3/2 casa com o nativo (1200x800).
    Foco levemente acima do centro para preservar a ação do quebra-panela. */
 .daltonismo__media img {
@@ -616,18 +606,11 @@ footer[id] {
 }
 
 .daltonismo__media figcaption {
-  position: absolute;
-  right: 16px;
-  bottom: 14px;
-  left: 16px;
-  z-index: 2;
-  margin-top: 0;
-  color: #fff;
-  font-size: 1.05rem;
-  letter-spacing: 0.06em;
+  margin-top: 12px;
+  color: var(--muted);
+  font-size: 0.9rem;
+  letter-spacing: 0.04em;
   line-height: 1.4;
-  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.75);
-  text-transform: uppercase;
 }
 
 
