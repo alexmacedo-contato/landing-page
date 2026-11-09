@@ -986,6 +986,19 @@ footer[id] {
   line-height: 1.4;
 }
 
+.investment__black-friday-badge {
+  display: inline-block;
+  margin-right: 0.4rem;
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+  background: var(--accent);
+  color: var(--ink);
+  font-size: 0.75rem;
+  letter-spacing: 0.03em;
+  line-height: 1.4;
+  vertical-align: 0.08em;
+}
+
 .investment__note {
   margin-top: 18px;
   color: rgba(255, 255, 255, 0.58);
